@@ -1,38 +1,50 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Logo{
+  width: 55px;
+  height: 55px;
+  margin-right: 10px;
+}
+.titleBar{
+  width: 100%;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.titleDetails{
+  display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addUserForm{
+  margin: 20px 50px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  transition: 0.1s ease-in-out;
+}
+.addTitle{
+  padding: 10px;
+  margin: 10px;
+}
+.userForm{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Container{
+  margin: 20px 50px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.searchBox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }

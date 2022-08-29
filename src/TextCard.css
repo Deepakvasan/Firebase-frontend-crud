@@ -1,0 +1,35 @@
+.container{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px  rgb(231, 231, 231);
+    border-top: 0.5px solid rgb(231, 231, 231);
+    border-left: 0.5px solid rgb(231, 231, 231);
+    border-radius: 20px;
+}
+.topBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nameDetails{
+    display: flex;
+    align-items: center;
+}
+.nameDetails > h3{
+    margin: 10px;
+    font-weight: 400;
+}
+.bottomBar{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.department{
+    margin-right: 10px;
+}
+.divider{
+    margin-right: 10px;
+}
+.editButton:hover{
+    cursor: pointer;
+}
